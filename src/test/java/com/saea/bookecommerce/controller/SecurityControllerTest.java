@@ -13,7 +13,6 @@ class SecurityControllerTest {
         assertThat(SecurityConfig.class.isAnnotationPresent(EnableMethodSecurity.class)).isTrue();
     }
 
-
     @Test
     void bookControllerHasSecurityAnnotations() throws NoSuchMethodException {
         assertThat(BookController.class.getMethod("create", com.saea.bookecommerce.dto.BookRequest.class)
