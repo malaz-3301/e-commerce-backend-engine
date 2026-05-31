@@ -1,0 +1,14 @@
+target/
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.env
+*.log
+.DS_Store
+
+.env
+target/
+frontend/node_modules/
+frontend/dist/
